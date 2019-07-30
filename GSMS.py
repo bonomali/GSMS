@@ -2,7 +2,7 @@
    Usage: smspy('email', 'password', 'phone_number', 'carrier', 'message'
    Current Carrier Support: Att, Verizon,"""
 import smtplib
-def GSMS(email,password,number,carrier,txt):
+def sms(email,password,number,carrier,txt):
     mailserver = smtplib.SMTP_SSL('smtp.gmail.com', 465)
     mailserver.ehlo()
     mailserver.login(email,password)
