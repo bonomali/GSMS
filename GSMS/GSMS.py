@@ -20,9 +20,9 @@ def sms(email,password,number,carrier,txt):
     if carrier == 'virgin':
         number = number + '@vmobl.com'
     if carrier == 'uscellular':
-        number = number + '@emil.uscc.net':
-    if carrier == 'boost'
-    number = number + '@myboostmobile.com'
+        number = number + '@email.uscc.net'
+    if carrier == 'boost':
+        number = number + '@myboostmobile.com'
     mailserver.sendmail(email, number, txt)        
 
 
