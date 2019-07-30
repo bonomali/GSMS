@@ -1,5 +1,7 @@
 """smspy - send sms via python using gmail -
-   Usage: smspy('email', 'password', 'phone_number', 'carrier', 'message'
+   Usage:
+   From GSMS import GSMS
+   GSMS.sms('email', 'password', 'phone_number', 'carrier', 'message'
    Current Carrier Support: Att, Verizon,"""
 import smtplib
 def sms(email,password,number,carrier,txt):
